@@ -23,7 +23,6 @@ export function Counter() {
         >
           Decrement
         </button>
-      
       </div>
     </div>
   );
