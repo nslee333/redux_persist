@@ -7,8 +7,6 @@ export function Counter() {
   const count = useSelector((state: RootState) => state.counter.value)
   const dispatch = useDispatch();
 
-  // & Get redux persist working 
-
   return (
     <div>
       <div>
