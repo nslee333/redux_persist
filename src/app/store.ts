@@ -10,9 +10,6 @@ const persistConfig = {
 
 const persistedReducer = persistReducer(persistConfig, counterReducer);
 
-
-
-
 export const store = configureStore({
   reducer: {
     counter: persistedReducer,
